@@ -1,0 +1,33 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+end",
+        "command": "-paredit.closeList",
+        "when": "calva:replWindowActive || editorTextFocus && editorLangId == 'clojure' && paredit:keyMap =~ /original|strict/"
+    },
+    {
+        "key": "ctrl+right",
+        "command": "-paredit.slurpSexpForward",
+        "when": "calva:replWindowActive || editorTextFocus && editorLangId == 'clojure' && paredit:keyMap =~ /original|strict/"
+    },
+    {
+        "key": "ctrl+left",
+        "command": "-paredit.barfSexpForward",
+        "when": "calva:replWindowActive || editorTextFocus && editorLangId == 'clojure' && paredit:keyMap =~ /original|strict/"
+    },
+    {
+        "key": "ctrl+shift+left",
+        "command": "-paredit.slurpSexpBackward",
+        "when": "calva:replWindowActive || editorTextFocus && editorLangId == 'clojure' && paredit:keyMap =~ /original|strict/"
+    },
+    {
+        "key": "ctrl+shift+right",
+        "command": "-paredit.barfSexpBackward",
+        "when": "calva:replWindowActive || editorTextFocus && editorLangId == 'clojure' && paredit:keyMap =~ /original|strict/"
+    },
+    {
+        "key": "ctrl+home",
+        "command": "-paredit.openList",
+        "when": "calva:replWindowActive || editorTextFocus && editorLangId == 'clojure' && paredit:keyMap =~ /original|strict/"
+    }
+]
