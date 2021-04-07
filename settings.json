@@ -1,0 +1,37 @@
+{
+  "calva.paredit.defaultKeyMap": "none",
+  "calva.showDocstringInParameterHelp": true,
+  "calva.prettyPrintingOptions": {
+    "enabled": false,
+    "printEngine": "pprint",
+    "width": 120,
+    "maxLength": 50
+  },
+
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  "editor.largeFileOptimizations": true,
+  "editor.renderControlCharacters": false,
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [{
+    "column": 80,
+    "color": "#3d3c3d"
+  }],
+
+  "git.autofetch": true,
+  "[git-commit]": { "editor.rulers": [ 72 ] },
+
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.shell.linux": "/bin/zsh",
+
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 1,
+
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.preferredDarkColorTheme": "Default Dark+"
+}
