@@ -13,10 +13,7 @@
   "editor.largeFileOptimizations": true,
   "editor.renderControlCharacters": false,
   "editor.renderWhitespace": "all",
-  "editor.rulers": [{
-    "column": 80,
-    "color": "#3d3c3d"
-  }],
+  "editor.rulers": [80],
 
   "git.autofetch": true,
   "[git-commit]": { "editor.rulers": [ 72 ] },
@@ -31,7 +28,7 @@
   "window.titleBarStyle": "custom",
   "window.zoomLevel": 1,
 
-  "workbench.colorTheme": "Default Dark+",
+  "workbench.colorTheme": "GitHub Light",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.preferredDarkColorTheme": "Default Dark+"
 }
