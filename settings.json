@@ -28,6 +28,7 @@
   "window.zoomLevel": 1,
 
   "workbench.colorTheme": "GitHub Light",
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.preferredDarkColorTheme": "Default Dark+"
+  "workbench.preferredDarkColorTheme": "Default Dark+",
+  "workbench.preferredLightColorTheme": "GitHub Light",
+  "workbench.startupEditor": "newUntitledFile"
 }
