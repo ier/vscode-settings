@@ -11,6 +11,7 @@
   "diffEditor.ignoreTrimWhitespace": false,
 
   "editor.largeFileOptimizations": true,
+  "editor.minimap.enabled": false,
   "editor.renderControlCharacters": false,
   "editor.renderWhitespace": "all",
   "editor.rulers": [80],
