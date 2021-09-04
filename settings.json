@@ -1,5 +1,5 @@
 {
-  "calva.paredit.defaultKeyMap": "none",
+  "calva.paredit.defaultKeyMap": "strict",
   "calva.showDocstringInParameterHelp": true,
   "calva.prettyPrintingOptions": {
     "enabled": false,
@@ -26,7 +26,7 @@
   "terminal.integrated.fontSize": 14,
 
   "window.titleBarStyle": "custom",
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0,
 
   "workbench.colorTheme": "GitHub Light",
   "workbench.preferredDarkColorTheme": "Default Dark+",
