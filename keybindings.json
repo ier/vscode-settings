@@ -29,5 +29,9 @@
         "key": "ctrl+home",
         "command": "-paredit.openList",
         "when": "calva:replWindowActive || editorTextFocus && editorLangId == 'clojure' && paredit:keyMap =~ /original|strict/"
+    },
+    {
+        "key": "ctrl+k k",
+        "command": "workbench.action.toggleCenteredLayout"
     }
 ]
