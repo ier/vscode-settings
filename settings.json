@@ -1,12 +1,13 @@
 {
   "calva.paredit.defaultKeyMap": "strict",
-  "calva.showDocstringInParameterHelp": true,
   "calva.prettyPrintingOptions": {
     "enabled": false,
     "printEngine": "pprint",
     "width": 120,
     "maxLength": 50
   },
+  "calva.referencesCodeLens.enabled": true,
+  "calva.showDocstringInParameterHelp": true,
 
   "diffEditor.ignoreTrimWhitespace": false,
 
@@ -19,8 +20,7 @@
   "git.autofetch": true,
   "[git-commit]": { "editor.rulers": [72] },
 
-  "telemetry.enableCrashReporter": false,
-  "telemetry.enableTelemetry": false,
+  "telemetry.telemetryLevel": "off",
 
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "terminal.integrated.fontSize": 14,
