@@ -1,7 +1,9 @@
 {
+  "calva.highlight.enableBracketColors": false,
+  "calva.highlight.highlightActiveIndent": false,
   "calva.paredit.defaultKeyMap": "strict",
   "calva.prettyPrintingOptions": {
-    "enabled": false,
+    "enabled": true,
     "printEngine": "pprint",
     "width": 120,
     "maxLength": 50
@@ -28,8 +30,19 @@
   "window.titleBarStyle": "custom",
   "window.zoomLevel": 0,
 
-  "workbench.colorTheme": "GitHub Light",
-  "workbench.preferredDarkColorTheme": "Default Dark+",
-  "workbench.preferredLightColorTheme": "GitHub Light",
-  "workbench.startupEditor": "newUntitledFile"
+  "workbench.colorTheme": "Sadhu",
+  "workbench.preferredDarkColorTheme": "Sadhu",
+  "workbench.preferredLightColorTheme": "Sadhu",
+  "workbench.startupEditor": "newUntitledFile",
+  
+  "[clojure]": {
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingOvertype": "always",
+    "editor.formatOnPaste": true
+  },
+  
+  "editor.tokenColorCustomizations": {
+    "functions": { "fontStyle": "bold", "foreground": "#223455fa" },
+    "keywords": { "fontStyle": "bold", "foreground": "#000"}
+  }
 }
