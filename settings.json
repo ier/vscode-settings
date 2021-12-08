@@ -42,7 +42,8 @@
   },
   
   "editor.tokenColorCustomizations": {
-    "functions": { "fontStyle": "bold", "foreground": "#223455fa" },
-    "keywords": { "fontStyle": "bold", "foreground": "#000"}
+    "functions": { "fontStyle": "bold", "foreground": "#25437afa" },
+    "keywords": { "fontStyle": "bold", "foreground": "#000"},
+    "strings": { "foreground": "#3a3a3a" }
   }
 }
