@@ -37,20 +37,14 @@
   "window.titleBarStyle": "custom",
   "window.zoomLevel": 0,
 
-  "workbench.colorTheme": "Sadhu",
-  "workbench.preferredDarkColorTheme": "Sadhu",
-  "workbench.preferredLightColorTheme": "Sadhu",
+  "workbench.colorTheme": "Albedo",
+  "workbench.preferredDarkColorTheme": "Albedo",
+  "workbench.preferredLightColorTheme": "Albedo",
   "workbench.startupEditor": "newUntitledFile",
   
   "[clojure]": {
     "editor.autoClosingBrackets": "always",
     "editor.autoClosingOvertype": "always",
     "editor.formatOnPaste": true
-  },
-  
-  "editor.tokenColorCustomizations": {
-    "functions": { "fontStyle": "bold", "foreground": "#25437afa" },
-    "keywords": { "fontStyle": "bold", "foreground": "#000"},
-    "strings": { "foreground": "#3a3a3a" }
   }
 }
