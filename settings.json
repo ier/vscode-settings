@@ -1,4 +1,6 @@
 {
+  "breadcrumbs.enabled": false,
+
   "calva.highlight.enableBracketColors": false,
   "calva.highlight.highlightActiveIndent": false,
   "calva.paredit.defaultKeyMap": "strict",
@@ -10,6 +12,7 @@
   },
   "calva.referencesCodeLens.enabled": true,
   "calva.showDocstringInParameterHelp": true,
+  "calva.showCalvaSaysOnStart": false,
 
   "diffEditor.ignoreTrimWhitespace": false,
 
@@ -21,6 +24,7 @@
 
   "git.autofetch": true,
   "[git-commit]": { "editor.rulers": [72] },
+  "gitlens.hovers.avatars": false,
 
   "search.exclude": {
     "**/node_modules": true,
@@ -28,7 +32,7 @@
     "**/*.code-search": true,
     "**/.clj-kondo": true
   },
-  
+
   "telemetry.telemetryLevel": "off",
 
   "terminal.integrated.fontFamily": "MesloLGS NF",
@@ -41,7 +45,7 @@
   "workbench.preferredDarkColorTheme": "Albedo",
   "workbench.preferredLightColorTheme": "Albedo",
   "workbench.startupEditor": "newUntitledFile",
-  
+
   "[clojure]": {
     "editor.autoClosingBrackets": "always",
     "editor.autoClosingOvertype": "always",
