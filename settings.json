@@ -21,6 +21,7 @@
   "editor.renderControlCharacters": false,
   "editor.renderWhitespace": "all",
   "editor.rulers": [80],
+  "editor.unicodeHighlight.ambiguousCharacters": false,
 
   "git.autofetch": true,
   "[git-commit]": { "editor.rulers": [72] },
